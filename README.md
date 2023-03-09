@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install` 
+
+As the node modules are ignored in .gitignore
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -14,6 +18,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `Challenges`
+
+(1.) The UI for ediiting items in cart was diffcult to manage on mobile screen so I was left to 2 option to either remove that functionality in mobile or create a new page to edit the items. I went for 2nd option and have created a checkout page to edit items.
+
+(2.) It was mentioned that the items should be stored in component state. But I have stored them in redux-store as I was using checkout page for editing the items.
+
+### `Improvements`
+
+(1.) Items in the cart are not saved anywhere the are stored in the state. Refreshing the page will remove all the items present in cart. We have to store them in local storage so after page refresh we still have items in our cart.
+
+(2.) Items cannot be edited in the cart we have to navigate to checkout page to increase decrease or remove items. Doing that is simple we just need to use addItem, removeItem and clearItem methods that are present in the actions.
+
+<!-- 
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
@@ -67,4 +84,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+# shopping-cart
