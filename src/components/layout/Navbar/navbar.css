@@ -1,0 +1,31 @@
+.navbar_container {
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  transition: 0.3s;
+  z-index: 999;
+  background-color: var(--black);
+}
+.nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: inherit;
+  justify-content: space-between;
+}
+.nav_anchor {
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  padding-right: 5px;
+  cursor: pointer;
+}
+.nav_items_container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 60px;
+  position: relative;
+}

@@ -1,0 +1,273 @@
+{
+  "fruits": {
+    "id": 1,
+    "title": "Fruits",
+    "routeName": "fruits",
+    "items": [
+      {
+        "id": 1,
+        "name": "Apple",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
+        "price": 25
+      },
+      {
+        "id": 2,
+        "name": "Banana",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+        "price": 18
+      },
+      {
+        "id": 3,
+        "name": "Strawberry",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1587393855524-087f83d95bc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=697&q=80",
+        "price": 35
+      },
+      {
+        "id": 4,
+        "name": "Orange",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1560749605-cebc04c2697c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
+        "price": 25
+      },
+      {
+        "id": 5,
+        "name": "Peach",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1570978561297-793391262fea?ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+        "price": 18
+      },
+      {
+        "id": 6,
+        "name": "Kiwi",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1572539280469-9c738c59964d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=613&q=80",
+        "price": 14
+      },
+      {
+        "id": 7,
+        "name": "Pineapple",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1490885578174-acda8905c2c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
+        "price": 18
+      },
+      {
+        "id": 8,
+        "name": "Pear",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1514756331096-242fdeb70d4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        "price": 14
+      },
+      {
+        "id": 9,
+        "name": "Avocado",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1449339854873-750e6913301b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        "price": 16
+      }
+    ]
+  },
+  "snacks": {
+    "id": 2,
+    "title": "Snacks",
+    "routeName": "snacks",
+    "items": [
+      {
+        "id": 10,
+        "name": "Lays",
+        "imageUrl":
+          "https://grozar.pk/wp-content/uploads/2020/03/Lays-Classic-Potato-Chips-40gm.jpg",
+        "price": 220
+      },
+      {
+        "id": 11,
+        "name": "Doritos",
+        "imageUrl":
+          "https://cdnprod.mafretailproxy.com/cdn-cgi/image/format=auto,onerror=redirect/sys-master-prod/h5c/h0b/10321097457694/669322_main.jpg_480Wx480H",
+        "price": 280
+      },
+      {
+        "id": 12,
+        "name": "Prince",
+        "imageUrl":
+          "https://media.naheed.pk/catalog/product/cache/49dcd5d85f0fa4d590e132d0368d8132/1/0/1014117-1.jpg",
+        "price": 110
+      },
+      {
+        "id": 13,
+        "name": "Cocomo",
+        "imageUrl":
+          "https://chaseup.com.pk/image/catalog/Grocery/Grocery/GR04625.JPG",
+        "price": 160
+      },
+      {
+        "id": 14,
+        "name": "Lottie Choco Pie",
+        "imageUrl":
+          "https://5.imimg.com/data5/RR/ZE/XR/SELLER-35654876/choco-pause-button-img-500x500.png",
+        "price": 160
+      },
+      {
+        "id": 15,
+        "name": "Marshmellows",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1518646455738-c17d10184f5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+        "price": 160
+      },
+      {
+        "id": 16,
+        "name": "KitKat",
+        "imageUrl":
+          "https://www.hersheys.com/content/dam/smartlabelproductsimage/kitkat/00034000002467-0010.png",
+        "price": 190
+      },
+      {
+        "id": 17,
+        "name": "Dairy Milk",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1623660053975-cf75a8be0908?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+        "price": 200
+      }
+    ]
+  },
+  "vegetables": {
+    "id": 3,
+    "title": "Vegetables",
+    "routeName": "vegetables",
+    "items": [
+      {
+        "id": 18,
+        "name": "Potatoes",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1590165482129-1b8b27698780?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80",
+        "price": 125
+      },
+      {
+        "id": 19,
+        "name": "Onions",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1580201092675-a0a6a6cafbb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        "price": 90
+      },
+      {
+        "id": 20,
+        "name": "Cabbage",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80",
+        "price": 90
+      },
+      {
+        "id": 21,
+        "name": "Carrots",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1590868309235-ea34bed7bd7f?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80",
+        "price": 165
+      },
+      {
+        "id": 22,
+        "name": "Green Chilli",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1504394448285-7adeab975d7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "price": 185
+      }
+    ]
+  },
+  "beverages": {
+    "id": 4,
+    "title": "Beverages",
+    "routeName": "beverages",
+    "items": [
+      {
+        "id": 23,
+        "name": "Coka Cola",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1630404365865-97ff92feba6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "price": 25
+      },
+      {
+        "id": 24,
+        "name": "Pepsi",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1531384370597-8590413be50a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "price": 20
+      },
+      {
+        "id": 25,
+        "name": "Fruita Vital",
+        "imageUrl":
+          "https://cdn.metro-online.pk/dashboard/prod-pic/LHE-01262/12620618-0-M.jpg?7",
+        "price": 80
+      },
+      {
+        "id": 26,
+        "name": "Mountain Dew",
+        "imageUrl":
+          "https://images.unsplash.com/photo-1632161927166-0aea13d8f7e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=349&q=80",
+        "price": 80
+      },
+      {
+        "id": 27,
+        "name": "Milo",
+        "imageUrl":
+          "https://cdn.shopify.com/s/files/1/0015/0611/5642/products/Untitleddesign-2020-04-29T113300.250.png?v=1588124989",
+        "price": 45
+      },
+      {
+        "id": 28,
+        "name": "Pakola",
+        "imageUrl":
+          "https://media.naheed.pk/catalog/product/cache/49dcd5d85f0fa4d590e132d0368d8132/1/0/1097341-1a.jpg",
+        "price": 135
+      },
+      {
+        "id": 29,
+        "name": "7up",
+        "imageUrl": "https://images.unsplash.com/photo-1622766815178-641bef2b4630?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1219&q=80",
+        "price": 20
+      }
+    ]
+  },
+  "laundry": {
+    "id": 5,
+    "title": "Laundry And House Hold",
+    "routeName": "laundry",
+    "items": [
+      {
+        "id": 30,
+        "name": "Surf Excel",
+        "imageUrl":
+          "https://images-na.ssl-images-amazon.com/images/I/51BKyEhbPdL.jpg",
+        "price": 325
+      },
+      {
+        "id": 31,
+        "name": "Ariel",
+        "imageUrl":
+          "https://images-na.ssl-images-amazon.com/images/I/81VRlBWP97L._SL1500_.jpg",
+        "price": 20
+      },
+      {
+        "id": 32,
+        "name": "Rin",
+        "imageUrl":
+          "https://5.imimg.com/data5/WI/JG/DP/GLADMIN-57844/rin-detergent-500x500.jpg",
+        "price": 25
+      },
+      {
+        "id": 33,
+        "name": "Vanish",
+        "imageUrl": "https://i.ebayimg.com/images/g/VPoAAOSwvSNckh2U/s-l300.jpg",
+        "price": 25
+      },
+      {
+        "id": 34,
+        "name": "Tide",
+        "imageUrl":
+          "https://images-na.ssl-images-amazon.com/images/I/71QbSy8f5CL._SX425_.jpg",
+        "price": 25
+      }
+    ]
+  }
+}

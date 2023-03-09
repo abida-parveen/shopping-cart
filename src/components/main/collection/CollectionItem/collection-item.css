@@ -1,0 +1,68 @@
+.collection_item {
+  width: calc(31%);
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  align-items: center;
+  position: relative;
+  margin: 0 15px 15px 0;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.image_container{
+  border: 1px solid var(--black);
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.collection_item .custom-button {
+  width: 80%;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 70px;
+  display: none;
+}
+.collection_item:hover .image {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95)
+}
+.collection_item:hover .custom-button {
+  opacity: 0.85;
+  display: grid;
+}
+.collection_footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.collection_footer .name {
+  width: 90%;
+}
+
+.collection_footer .price {
+  width: 10%;
+}
+
+@media screen and (max-width: 1023px) {
+  .collection_item {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .collection_item {
+    height: 300px;
+    width: calc(100%);
+  }
+  .collection_item .custom-button {
+    display: block;
+  }
+}

@@ -1,0 +1,12 @@
+.directory_menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .directory_menu {
+    flex-direction: column;
+  }
+}
