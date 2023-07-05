@@ -5,7 +5,11 @@ function useScrollToTop() {
   const location = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // Avoid conflict between scrolling to top or categories when user clicks 'Find Products link'
+    if (location.hash !== '#categories') {
+      window.scrollTo(0, 0);
+    }
+    
   }, [location]);
 }
 

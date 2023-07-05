@@ -10,16 +10,20 @@
 .nav {
   align-items: center;
   display: flex;
-  flex-direction: row;
+  /*? Flex direction is row by default so we can get rid of this line */
+  /* flex-direction: row; */
   height: inherit;
-  justify-content: space-between;
+  /*! justify-content: space-between; */
+  justify-content: end;
 }
+/* We can make some improvement to CSS */
 .nav_anchor {
   color: #ffffff;
   text-decoration: none;
   position: relative;
   padding-right: 5px;
   cursor: pointer;
+  margin-right: auto;
 }
 .nav_items_container {
   align-items: center;
@@ -28,4 +32,10 @@
   justify-content: space-between;
   margin-left: 60px;
   position: relative;
+}
+
+.find_products_anchor {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
 }
