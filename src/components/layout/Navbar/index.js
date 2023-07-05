@@ -13,6 +13,10 @@ const Navbar = (props) => {
         <Link to="/" className="nav_anchor">
           <img src={logo} alt="logo" />
         </Link>
+        {/* NEW LINE: this link allows user to easily navigate to Categories section and find more products */ }
+
+        <Link to="/#categories" className="find_products_anchor">Find Products</Link>
+        
         <div className="nav_items_container">
           <CartIcon />
           {props.hidden && <CartDropdown />}
